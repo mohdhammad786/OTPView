@@ -10,9 +10,6 @@
 		018B768BB051FC065FD4A74D6C1974B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		15C0BD29961112B2072681FB3B184A4A /* Pods-OTPView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F673ED1F5D9E801F87E85A44D77A41 /* Pods-OTPView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DE462A2B6B57B1ED710A0B0DC608DB7 /* OTPView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2F52A555A2A555CCC0D2F34B9A6A7C /* OTPView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3736620628F3F8CF009FA84C /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3736620528F3F8CF009FA84C /* OTPView.swift */; };
-		3736620828F3F8D9009FA84C /* BigOHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3736620728F3F8D9009FA84C /* BigOHTextField.swift */; };
-		3736620A28F3F8E3009FA84C /* TextFieldBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3736620928F3F8E3009FA84C /* TextFieldBehaviour.swift */; };
 		38E01BFFE0D8C13FDF957FD52D2AB669 /* Pods-OTPView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E70649C11F82BD34048E0DCB1C3BC8 /* Pods-OTPView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		863A4DF82828AC069762B123557F0CB2 /* Pods-OTPView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03494F8EA71E6B07321C52474E19F4DB /* Pods-OTPView_Tests-dummy.m */; };
 		9D5519A20393D1BBEF961DE47D27E022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -45,9 +42,6 @@
 		04BC59FF8873DB83D3C0B76F9C74C7E8 /* Pods-OTPView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		05E70649C11F82BD34048E0DCB1C3BC8 /* Pods-OTPView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPView_Example-umbrella.h"; sourceTree = "<group>"; };
 		1B8502C27F1D99E381C4B5D5AA460A8B /* Pods-OTPView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3736620528F3F8CF009FA84C /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
-		3736620728F3F8D9009FA84C /* BigOHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigOHTextField.swift; sourceTree = "<group>"; };
-		3736620928F3F8E3009FA84C /* TextFieldBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBehaviour.swift; sourceTree = "<group>"; };
 		3844DB1710F673EC81908CE7B425C54F /* Pods-OTPView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OTPView_Tests"; path = Pods_OTPView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F754A57F8125DFE34573A2C58A332BC /* Pods-OTPView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTPView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		427AAAF0A9ABB4EFB91EA83BFC8ADCAC /* OTPView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTPView; path = OTPView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,20 +151,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3736620428F3F8B6009FA84C /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				3736620528F3F8CF009FA84C /* OTPView.swift */,
-				3736620728F3F8D9009FA84C /* BigOHTextField.swift */,
-				3736620928F3F8E3009FA84C /* TextFieldBehaviour.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		4249E51F015ECAA097928FCC1E2417BE /* OTPView */ = {
 			isa = PBXGroup;
 			children = (
-				3736620428F3F8B6009FA84C /* Source */,
 				A0CAEEE41CBFEFFC3737F9D776BB1114 /* ReplaceMe.swift */,
 				74B78DDD12F22B3FA481616CBC430C81 /* Pod */,
 				2B27EA39B82466CA095D3EF89568BDF9 /* Support Files */,
@@ -392,10 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3736620A28F3F8E3009FA84C /* TextFieldBehaviour.swift in Sources */,
-				3736620828F3F8D9009FA84C /* BigOHTextField.swift in Sources */,
 				AAE44B7087470359BF79EB223CDFB90D /* OTPView-dummy.m in Sources */,
-				3736620628F3F8CF009FA84C /* OTPView.swift in Sources */,
 				AF7424DC8A0DCA825055C556F6CAFDDC /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
