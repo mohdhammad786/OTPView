@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'OTPView/Classes/**/*'
+  s.source_files = 'Classes/*.{h,m,swift}'
   #s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   
