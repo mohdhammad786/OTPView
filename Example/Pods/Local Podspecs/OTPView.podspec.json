@@ -1,0 +1,22 @@
+{
+  "name": "OTPView",
+  "version": "0.1.0",
+  "summary": "A short description of OTPView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mohammad Hammad/OTPView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mohammad Hammad": "mohammad.hammad@bigohtech.com"
+  },
+  "source": {
+    "git": "https://github.com/Mohammad Hammad/OTPView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "OTPView/Classes/**/*"
+}
