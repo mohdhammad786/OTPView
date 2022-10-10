@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OTPView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A Custom view for otp which inherits UIView'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'This is a custom pod for getting OTP View in ios all the functionalities are implemented you just have to set the the properties using function '
                        DESC
 
-  s.homepage         = 'https://github.com/Mohammad Hammad/OTPView'
+  s.homepage         = 'https://github.com/mohdhammad786/OTPView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mohammad Hammad' => 'mohammad.hammad@bigohtech.com' }
-  s.source           = { :git => 'https://github.com/Mohammad Hammad/OTPView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mohdhammad786/OTPView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
